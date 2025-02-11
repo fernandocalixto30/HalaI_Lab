@@ -1,0 +1,78 @@
+#home {
+    display: flex;
+    background-image: url(../../assets/fumdo-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 605px;
+    width: 100%;
+    justify-content: space-between;
+
+    gap: 20px;
+    padding: 0 40px;
+
+}
+
+.content-home h1 {
+    font-size: 64px;
+    font-weight: 500;
+    color: #fff;
+
+    line-height: 72px;
+
+}
+
+#home p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.content-home {
+    width: 506px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.content-home-img {
+    align-items: center;
+    display: flex;
+}
+
+.content-home-img img {
+    border: 5px solid #fff;
+    border-radius: 12px;
+}
+
+.content-btns {
+    display: flex;
+    gap: 30px;
+}
+
+.content-btns>.btn-free {
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 34px;
+    color: #000;
+    font-size: 20px;
+}
+
+.content-btns>.btn-talk {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 34px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.content-btns>.btn-talk:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ffffff;
+}
