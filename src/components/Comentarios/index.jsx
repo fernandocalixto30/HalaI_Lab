@@ -15,9 +15,6 @@ const Coment = () => {
         <h1>You are in good company</h1>
         <p>Create intuitive automations and authentic chatbots to deliver outstanding customer experiences via chat.
         </p>
-
-
-
     </div>
     <div className="comments-container">
 

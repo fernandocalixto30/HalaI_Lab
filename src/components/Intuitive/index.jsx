@@ -16,7 +16,7 @@ const Intuitive = () => {
             <div className="content-automation-card-text">
                 <div className="content-automation-card-text-titulo">
                     <div>
-                        <img src={iconrelogio} alt=""/>
+                        <img src={iconrelogio} alt="0"/>
                     </div>
                     <div className="content-text-automation">
                         <h2>Sales support around the clock.</h2>
@@ -28,22 +28,22 @@ const Intuitive = () => {
 
                 </div>
                 <div className="content-text-automation-safe">
-                    <img src={iconmark} alt=""/>
+                    <img src={iconmark} alt="1"/>
                     <p>Easily segment your WhatsApp newsletter subscribers</p>
                 </div>
                 <div className="content-text-automation-safe">
-                    <img src={iconinlove} alt=""/>
+                    <img src={iconinlove} alt="2"/>
                     <p>Automations that support your customer service.</p>
                 </div>
                 <div className="content-text-automation-safe">
-                    <img src={iconchat} alt=""/>
+                    <img src={iconchat} alt="3"/>
                     <p>Automated recruitment processes via WhatsApp.</p>
                 </div>
             </div>
-            <div className="content-automation-card-img"><img src={invictus} alt=""/></div>
+            <div className="content-automation-card-img"><img src={invictus} alt="4"/></div>
         </div>
     </section>
   )
 }
 
-export default Intuitive
+export default Intuitive;

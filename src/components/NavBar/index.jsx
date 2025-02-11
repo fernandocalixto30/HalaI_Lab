@@ -21,7 +21,7 @@ const NavBar = () => {
     </ul>
     <div className="btns">
         <a href="#" className="btn-login">Login</a>
-        <a href="#" className="btn-apply">Apply now <img src={arrow} alt=""/> </a>
+        <a href="#" className="btn-apply">Apply now <img src={arrow} alt="imgarrow"/> </a>
     </div>
 </header>
   )

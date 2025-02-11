@@ -36,19 +36,17 @@
     font-size: 19px;
     font-weight: 400;
     font-family: 'Ramabhadra', cursive;
-    color: #fff;
+  
 }
 
 .logo-footer img {
     width: 28px;
     height: 28px;
-
 }
 
 .footer-footer-phone {
     display: flex;
     gap: 10px;
-
 }
 
 .footer-footer-phone>img {

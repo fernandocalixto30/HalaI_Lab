@@ -2,7 +2,7 @@ import './style.css'
 import imghome from "../../assets/img-home.jpg"
 const StartIdentity= () => {
   return (
-<>
+
     <section id="home">
     <div className="content-home">
         <div>
@@ -17,11 +17,10 @@ const StartIdentity= () => {
             <a href="" className="btn-talk">Talk to us</a>
         </div>
     </div>
-    <div className="content-home-img"><img src={imghome} alt=""/></div>
+    <div className="content-home-img"><img src={imghome} alt="imghome"/></div>
 </section>
-</>
 
   )
 }
 
-export default StartIdentity
+export default StartIdentity;
