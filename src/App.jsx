@@ -1,4 +1,4 @@
-import {BrowserRouter as Router,Route,Routes,} from "react-router-dom";
+import {HashRouter as Router,Route,Routes,} from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import './app.css'
 import Nopage from "./Pages/NoPage/Nopage";
